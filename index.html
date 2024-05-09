@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="clinic,online heath care">
+    <link rel="icon" href="/favicon.ico"/>
+    <title>Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="practo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!--Creating first navbar-->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Image on the left -->
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.practo.com/nav/9.5.17/consumer/images/practo.svg" alt="">
+                </a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Find Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Video Consult</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Medicines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lab Tests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Surgeries</a>
+                    </li>
+                </ul>
+            </div>
+           
+            <!-- Hamburger Icon -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Items -->
+            </ul>
+                <!-- Button on the right -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">For Corporates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">For Providers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Security & help</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-primary">Sign in</button>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+
+<!--search-->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="search">
+                <div class="one">
+                    <input type="text" placeholder="thrissur">
+                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                </div>
+                <div class="two">
+                    <input type="text" placeholder="Search doctors, clinics, hospitals, etc.">
+                    <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--options-->
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                <div class="card" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                    <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Instant Video Consultation</h5>
+                      <p class="card-text">Connect within 60 secs</p>
+                    </div>
+                </div>
+            </div>  
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">  
+                <div class="card" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                    <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_find_doctors.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Find Doctors Near You</h5>
+                      <p class="card-text">Confirmed Appointments</p>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="card" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                    <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_medicines.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Medicines</h5>
+                      <p class="card-text">Essential at your doorstep</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="card" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                    <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_lab_tests.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lab Tests</h5>
+                      <p class="card-text">Sample pick up at your home</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">   
+                <div class="card" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                    <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_surgeries.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Surgeries</h5>
+                      <p class="card-text">Safe and trusted surgery centers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!--box1-->
+    <div class="container">
+        <div class="box-1">
+            <div class="first">
+                <h3>Consult top doctors online for any health concern</h3>
+                <p>Private online consultations with verified doctors in all specialists</p>
+            </div>  
+            <div class="second">
+                <button type="button" class="btn btn-outline-primary">View All Specialist</button>
+            </div>
+        
+        </div>    
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                        <div class="small-image" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                            <img src="https://www.practostatic.com/consult/consult-home/symptoms_icon/irregular-painful+period.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Period doubts or <br>Pregnancy</p>
+                              <h6 class="card-title">CONSULT NOW</h6>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                        <div class="small-image" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                            <img src="https://www.practostatic.com/consult/consult-home/symptoms_icon/Acne.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Acne,pimple or <br>skin issues</p>
+                              <h6 class="card-title">CONSULT NOW</h6>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                        <div class="small-image" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                            <img src="https://www.practo.com/consult/static/images/top-speciality-sexology.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Performance issues<br> in bed</p>
+                              <h6 class="card-title">CONSULT NOW</h6>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                        <div class="small-image" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                            <img src="https://www.practostatic.com/consult/consult-home/symptoms_icon/coughing.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Cold,cough or <br>fever</p>
+                              <h6 class="card-title">CONSULT NOW</h6>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                        <div class="small-image" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                            <img src="https://www.practo.com/consult/static/images/top-speciality-pediatric.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Child not feeling <br>well</p>
+                              <h6 class="card-title">CONSULT NOW</h6>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                        <div class="small-image" style="width: 12rem; border-radius: 15px; overflow: hidden;">
+                            <img src="https://www.practostatic.com/acred/search-assets/2/12-mental-wellness.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Depression or <br>anxiety</p>
+                              <h6 class="card-title">CONSULT NOW</h6>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+    </div>
+
+
+    <!--box2-->
+    <div class="container">
+        <div class="box-2">
+            <h3>Consult top doctors online for any health concern</h3>
+            <p>Private online consultations with verified doctors in all specialists</p>
+        </div>     
+            <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                    <div class="heading">
+                        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dentist@2x.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h6 class="card-text">Dentist</h6>
+                              <p class="card-title">Teethig troubles? Schedule a dental chekup</p>
+                            </div>
+                    </div>
+                </div>  
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                    <div class="heading">
+                        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-gynecologist@2x.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h6 class="card-text">Gynecologist/Obstetrician</h6>
+                              <p class="card-title">xplore for womens's health, pregnancy and<br>
+                                infertility treatments</p>
+                            </div>
+                    </div>
+                </div>  
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                    <div class="heading">
+                            <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-dietitian@2x.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+                              <h6 class="card-text">Dietitian/Nutrition</h6>
+                              <p class="card-title">Get guidance on eating right,weight management and sports nutrition</p>
+                            </div>
+                    </div>
+                </div>  
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 ">
+                    <div class="heading">
+                        <img src="https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-physiotherapist@2x.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+                              <h6 class="card-text">Physiotherapist</h6>
+                              <p class="card-title">Pulled a muscle? Get it treated by a trained physiotherapist</p>
+                            </div>
+                    </div>
+                </div>  
+            </div>
+        
+    </div>    
+    
+           
+  <!--box3-->
+  <div class="container">
+    <div class="box-3">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="b1">
+                    <h1>Read top articles from health experts</h1>
+                    <p>Health articles that keep you informed about good<br> 
+                       health practices and achieve your goals.</p>
+                    <button type="button" class="btn btn-outline-primary">See all articles</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="b2">
+                    <div class="sb2">
+                        <img src="https://www.practostatic.com/fit/5fd27b74d9477cb633445cf3f105078bbc479910" alt="">
+                        <h4>CORONAVIRUS</h4>
+                        <p>12 Coronavirus Myths and Facts That You Should Be Aware Of</p>
+                        <h5>Dr. Diana Borgio</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="b2">
+                    <div class="sb2">
+                        <img src="https://www.practostatic.com/fit/bade52edc7fb158bf627216bf96c2b881a97f30c" alt="">
+                        <h4>VITAMINS AND SUPPLEMENTS</h4>
+                        <p>Eating Right to Build Immunity Against Cold and Viral Infections</p>
+                        <h5>Dr. Diana Borgio</h5>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+<!--box4-->
+    <div class="box-4">
+        <h2>What our users have to say</h2><br><br>
+        <p>Very helpful.Far easier than doing same things on<br><br>
+             computer.Allow quick and easy search with speedy<br><br>
+            booking.Even maintain history of doctors visited.</p>        
+    </div>
+
+
+    <!--footer-->
+  <div class="container"></div>  
+    <div class="footer">
+        <div class="final">
+          <div class="row">
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="list">
+                    <ul>
+                       <li>
+                          <h3>Practo</h3><br>
+                          <h5>About</h5><br>
+                          <h5>Blog</h5><br>
+                          <h5>Careers</h5><br>
+                          <h5>Press</h5><br>
+                          <h5>Contact Us</h5><br>
+                       </li>
+                     </ul>
+                </div>
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="list">
+                    <ul>
+                       <li>
+                         <h3>For patients</h3><br>
+                         <h5>Search for doctors</h5><br>
+                         <h5>Search for clinics</h5><br>
+                         <h5>Search for hospitals</h5><br>
+                         <h5>Book Diagnostic Tests</h5><br>
+                         <h5>Book Full Boady Checkups</h5><br>
+                         <h5>Practo Plus</h5><br>
+                         <h5>Covid Hospital listing</h5><br>
+                         <h5>Read health articles</h5><br>
+                         <h5>Practo drive</h5><br>
+                         <h5>Health app</h5><br>
+                       </li>
+                    </ul>
+                </div>
+             </div>    
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="list">
+                    <ul>
+                        <li>
+                          <h3>For doctors</h3><br>
+                          <h5>Practo Profile</h5><br><br>
+                          
+                          <h3>For clinics</h3><br>
+                          <h5>Ray by Practo</h5><br>
+                          <h5>Practo Reach</h5><br>
+                          <h5>Ray Tab</h5><br>
+                          <h5>Practo Pro</h5><br>
+                        </li>
+                    </ul>
+                </div>
+             </div>    
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="list">
+                    <ul>
+                        <li>
+                          <h3>For hospitals</h3><br>
+                          <h5>Insta by Practo</h5><br>
+                          <h5>Qikwell by Practo</h5><br>
+                          <h5>Practo Profile</h5><br>
+                          <h5>Practo Reach</h5><br>
+                          <h5>Practo Drive</h5><br><br>
+      
+                          <h3>For Corporates</h3><br>
+                          <h5>Wellness Plans</h5><br>
+                        </li>
+                    </ul>
+                 </div>
+             </div>     
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="list">
+                    <ul>
+                        <li>
+                          <h3>More</h3><br>
+                          <h5>Help</h5><br>
+                          <h5>Developers</h5><br>
+                          <h5>Privacy Policy</h5><br>
+                          <h5>Terms & Conditions</h5><br>
+                          <h5>PCS T&C</h5><br>
+                          <h5>Healthcare Directory</h5><br>
+                          <h5>Practo Health Wiki</h5><br>
+                        </li>
+                     </ul>
+                 </div>
+             </div>     
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="list">
+                    <ul>
+                        <li>
+                          <h3>Social</h3><br>
+                          <h5>Facebook</h5><br>
+                          <h5>Twitter</h5><br>
+                          <h5>Linkedin</h5><br>
+                          <h5>Youtube</h5><br>
+                          <h5>Github</h5><br>
+                        </li>
+                     </ul>
+                </div>
+             </div>
+         </div> 
+       </div>
+           
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center">
+                <img src="https://www.practostatic.com/web-assets/images/white_practo_logo.svg" alt="">
+                <h5>Copyright © 2017, Practo. All rights reserved.</h5>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+</body>
+</html>
+    
+
+
+        
+     
