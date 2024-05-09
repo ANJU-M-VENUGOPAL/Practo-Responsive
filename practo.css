@@ -1,0 +1,367 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*first navbar*/
+@media (max-width: 576px) {
+    /* Extra small devices (phones) */
+    .navbar-expand-lg .navbar-nav {
+        display: none !important;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Small devices (tablets) */
+    .navbar-expand-lg .navbar-nav {
+        display: none !important;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Medium devices (desktops) */
+    .navbar-expand-lg .navbar-nav {
+        display: none !important;
+    }
+}
+.navbar {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+/*search*/
+@media (max-width: 767.98px) {
+    .search {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one,
+    .two {
+        width: 100%;
+    }
+}
+
+/* For screens larger than or equal to md (lg and xl) */
+@media (min-width: 768px) {
+    .search {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .one,
+    .two {
+        width: 45%; /* Adjust as needed */
+    }
+}
+.search {
+    display:flex;
+     font-size: 16px;
+     align-items: center;
+     margin-left:15% ;
+     margin-right:15% ;
+     margin-top: 2%;margin-left:20% ;
+     margin-right:20%;
+     font-family:serif;
+ }
+ .one input[type=text]{
+     width:130%;
+     border:1px solid rgb(146, 142, 142);
+     outline:none;
+     padding:8px;
+     cursor: pointer;
+ }
+ .one input[type=text]{
+     padding-left:35px;
+ }
+ .one{
+     position:relative;
+ }
+ .one i{
+     position:absolute;
+     left:0;
+     top:2px;
+     padding:9px 8px;
+     color:rgb(146, 142, 142);
+ }
+ .two input[type=text]{
+     width:130%;
+     border:1px solid rgb(146, 142, 142);
+     border-radius: 4px;
+     outline:none;
+     padding:8px;
+     cursor: pointer;
+ }
+ .two input[type=text]{
+     padding-left:35px;
+ }
+ .two{
+     position:relative;
+ }
+ .two i{
+     position:absolute;
+     left:0;
+     top:2px;
+     padding:9px 8px;
+     color:rgb(146, 142, 142);
+ }
+
+ /*options*/
+ 
+ .card {
+    width: 12rem;
+    border-radius: 15px;
+    overflow: hidden;
+    height:100%;
+    margin-top: 3rem;
+    cursor: pointer; 
+}
+
+/* Define styles for the card image */
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire space */
+    background-color: #9cc5eb;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right:1rem ;
+}
+
+/* Define styles for the card body */
+.card-body {
+    background-color: #f1f3f5; /* Background color for the card body */
+    border-radius: 0 0 15px 15px; /* Rounded corners for the bottom of the card body */
+   
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 30px; /* Increase margin for smaller screens */
+    }
+}
+
+/* Media query for larger screens */
+@media (min-width: 992px) {
+    .card {
+        margin-bottom: 0; /* Increase margin for larger screens */
+    }
+}
+.card {
+    background-color: #7d8d9c; /* Adjust as needed */
+    border-radius: 50px; /* Rounded corners for cards */
+}
+
+/* Define rounded corners for card images */
+.card-img-top {
+    border-top-left-radius: 50px; /* Rounded top-left corner */
+    border-top-right-radius: 50px; /* Rounded top-right corner */
+    justify-content: space-around;
+}
+
+
+/*box-1*/
+
+.container .box-1{
+    margin-left:1rem ;
+    margin-top:8rem; 
+    font-family:serif;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.container .box-1 h3{
+    font-weight: 600;
+}
+
+/* Define styles for the small image cards */
+.small-image {
+    width: 12rem;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Define styles for the small images */
+.small-image img {
+    width: 60%;
+    height:100%; /* Maintain aspect ratio */
+    border-radius: 15px;
+}
+
+/* Define styles for the small image card body */
+.small-image .card-body {
+    background-color: #f8f9fa; /* Background color for the card body */
+    padding: 10px;
+}
+
+/* Define styles for the small image card text */
+.small-image .card-body p {
+    margin-bottom: 5px;
+}
+.small-image .card-body h6{
+    color: rgb(90, 167, 190);
+    cursor: pointer;
+}
+
+
+/*box-2*/
+.box-2 {
+    margin-left:1rem;
+    margin-top:5rem;
+    
+    font-family:serif;
+}
+.box-2 h3{
+        font-weight: 600; 
+        color: rgb(13, 13, 14);
+     }
+.box-2 p{
+        font-size:12;
+        font-weight: lighter; 
+        color: rgb(85, 79, 79);
+     }
+.heading{
+       margin-top:1rem; 
+        font-family:serif; 
+      }
+    
+    
+.heading  img {
+        
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        font-family:serif;
+        cursor: pointer;
+}    
+
+.heading  h6{
+        color: rgb(14, 13, 13);
+        font-weight: bold;
+    }  
+    .heading h6:hover{
+        color:rgb(59, 241, 241);
+        text-decoration: underline ;
+    }
+    
+/*box-3*/
+.box-3 {
+    margin-left: 15%;
+    margin-top: 5%; 
+    font-family:serif;
+}
+
+.box-3 .b1 {
+    width: 100%; /* Adjust width as needed */
+     gap:50px;
+}
+
+.box-3 .b1 h1 {
+    color: rgb(44, 48, 78);
+}
+.box-3 .b1 p{
+    color: rgb(82, 78, 78);
+}
+
+.box-3 .b1 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #48d0e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-3 .b2 {
+    display: flex;
+    gap: 50px; 
+   cursor: pointer;
+}
+
+.box-3 .sb2 {
+    width: 200%; 
+}
+
+.box-3 .sb2 img {
+    width: 100%; 
+    height: auto; 
+}
+.box-3 .sb2 h4{
+    color: rgb(25, 122, 122);
+    
+}
+.box-3 .sb2 p{
+   font-size: medium;
+   color: rgb(54, 50, 50);
+}
+.sb2 img {
+    width: 100%; /* Make the image fill its container */
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Custom CSS to increase text size */
+.sb2 h4,
+.sb2 p,
+.sb2 h5 {
+    font-size: 1.2em; /* Increase font size */
+}
+
+
+
+
+/*box-4*/
+.box-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family:serif;
+}
+
+.box-4 h2{
+   font-size:40px;
+   color: rgb(66, 63, 63);
+}
+.box-4 p {
+    font-size: 20px;
+    color: rgb(68, 58, 58);
+    
+}
+
+
+
+/*footer*/
+.footer {
+    background-color: rgb(39, 39, 143);
+    color: white;
+    width:100%;
+    height:10%;
+    font-family:serif;
+}  
+   
+.final {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ul {
+    list-style-type: none; 
+}
+
+.list h5:hover{
+    text-decoration: underline;
+    transition: 0.1s;
+}
+.final-image{
+    align-items: center;
+    text-align: center;
+}
+.list h3 {
+    margin-top:50px; /* Adjust the value as needed */
+    font-weight: 400;
+}
